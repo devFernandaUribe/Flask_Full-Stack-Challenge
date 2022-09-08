@@ -50,6 +50,12 @@ class Feed {
     this.name = name;
     this.url = `/api/${name}`;
     this.page = 1;
+
+    // set up "Load More" button
+    this.moreButton = document.querySelector(`.feed-${this.name} .button-more`);
+    if (this.moreButton) {
+      this.moreButton.onclick = () => this.more();
+    }
   }
 
   async load() {
@@ -58,25 +64,59 @@ class Feed {
     wireframes.forEach((element, index) => {
       const data = articles[index];
       if (data) {
-        let article = new Article(data);
+        const article = new Article(data);
         element.innerHTML = article.html;
         element.classList.remove('wireframe');
       } else {
         element.classList.add('hidden');
+        this.moreButton.classList.add('hidden');
       }
     });
   }
 
+  async more() {
+    this.moreButton.classList.add('hidden');
+    this.page += 1;
+    const articles = await this.fetchPage();
+    if (articles?.length) {
+      let elemToCopy = document.querySelector(`.feed-${this.name} .feed-item`);
+      for (const data of articles) {
+        const article = new Article(data);
+        const clone = elemToCopy.cloneNode(true);
+        clone.innerHTML = article.html;
+        document.querySelector(`.feed-${this.name} .feed`).appendChild(clone);
+        elemToCopy = clone;
+      }
+      this.moreButton.classList.remove('hidden');
+    }
+  }
+
   async fetchPage() {
     let response = await fetch(`${this.url}?p=${this.page}`);
-    return await response.json() || {};
+    return await response.json() || [];
   }
 }
 
-for (let feedName of ['latest', 'trending']) {
-  const feed = new Feed(feedName);
-  feed.load();
+class Page {
+  constructor() {
+    this.feeds = {
+      latest: null,
+      trending: null,
+    };
+  }
+
+  render() {
+    // load each of the feeds in the page
+    for (let feedName of Object.keys(this.feeds)) {
+      const feed = new Feed(feedName);
+      feed.load();
+      this.feeds[feedName] = feed;
+    }
+  }
 }
+
+const page = new Page();
+page.render();
 
 /*// TODO load data into "recommended" feed
 // These recommendations should change as the user interacts with the feed
