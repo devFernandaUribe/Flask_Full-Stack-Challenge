@@ -1,0 +1,21 @@
+html, body {
+  box-sizing: content-box;
+  margin: 0;
+  width: 100%;
+}
+
+.content {
+  font-size: 18px;
+  margin: 0 20px;
+  max-width: 1136px;
+}
+
+.content li {
+  padding-bottom: 10px;
+}
+
+@media (min-width: 52rem) {
+  .content {
+    margin: auto;
+  }
+}

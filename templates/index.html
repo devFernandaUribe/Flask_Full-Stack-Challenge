@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>BuzzFeed FullStack</title>
+  <link href="/static/css/style-header.css" rel="stylesheet" type="text/css" />
+  <link href="/static/css/style-challenge.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  {{ header|safe }}
+
+  <div class="content">
+    <h1>TODO for Rebecca:</h1>
+    <p>update challenge description with more guidance on expectations, possibly add more notes in the code as well</p>
+    <p> Use weaver to get results for other editions: https://weaver-api.buzzfeed.com/v1/feeds/trending?client_type=desktop&lang=en&country=us&page=2&z=2406u206</p>
+    <p>clean up json files</p>
+    <p>add favicon</p>
+    <p>how should personalization work?  let them be creative?  recommend that they use session storage?</p>
+    <p>update article.html</p>
+    <p>add see more button</p>
+    
+    <h1>Challenge Description</h1>
+    <p>
+    In this exercise, we ask that you implement a full stack web application that ingests multiple APIs to build a unique feed of content for each user.
+    </p>
+    <p>
+      The tech stack includes Python, Flask, Jinja, HTML, CSS, and Javascript.
+    </p>
+    <h1>Product Requirements</h1>
+    <ul>
+      <li>A single page with multiple feeds of content, like the BuzzFeed homepage</li>
+      <li>The main feed should be the latest content published</li>
+      <li>There should be at least two modules with personalized content for that user</li>
+      <li>There should be one module with the most trending articles for that user’s area</li>
+      <li>The site must be fast and performant, especially on mobile</li>
+    </ul>
+  </div>
+</body>
+
+</html>

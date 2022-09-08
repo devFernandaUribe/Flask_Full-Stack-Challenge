@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>BuzzFeed FullStack Feed Page</title>
+  <link href="/static/css/style-header.css" rel="stylesheet" type="text/css" />
+  <link href="/static/css/style-feed.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  {{ header|safe }}
+
+  <div class="content">
+
+    <div class="main">
+      <div id="feed-latest" class="feed-latest">
+        <h1>Latest Posts</h1>
+        {% with n=wireframes.latest %}
+          {% include "wireframes.html" %}
+        {% endwith %}
+      </div>
+    </div>
+
+    <div class="sidebar">
+      <div id="feed-personalized" class="feed-personalized">
+        <h1>Recommended Posts</h1>
+        {% with n=wireframes.recommended %}
+          {% include "wireframes.html" %}
+        {% endwith %}
+      </div>
+      <div id="feed-trending" class="feed-trending">
+        <h1>Trending Posts</h1>
+        {% with n=wireframes.trending %}
+          {% include "wireframes.html" %}
+        {% endwith %}
+      </div>
+    </div>
+
+  </div>
+    
+  <script src="/static/js/script.js"></script>
+</body>
+
+</html>
