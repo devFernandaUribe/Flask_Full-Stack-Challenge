@@ -97,28 +97,8 @@ class Feed {
   }
 }
 
-class Page {
-  constructor() {
-    this.feeds = {
-      latest: null,
-      trending: null,
-    };
-  }
-
-  render() {
-    // load each of the feeds in the page
-    for (let feedName of Object.keys(this.feeds)) {
-      const feed = new Feed(feedName);
-      feed.load();
-      this.feeds[feedName] = feed;
-    }
-  }
+// Load all feeds
+for (let feedName of ['latest', 'trending']) {
+  const feed = new Feed(feedName);
+  feed.load();
 }
-
-const page = new Page();
-page.render();
-
-/*// TODO load data into "recommended" feed
-// These recommendations should change as the user interacts with the feed
-console.log('Recommended');
-console.log(document.querySelectorAll('.feed-personalized .feed-item'));*/

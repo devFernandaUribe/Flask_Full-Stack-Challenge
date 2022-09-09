@@ -14,29 +14,33 @@
 
   <div class="content">
     <h1>TODO for Rebecca:</h1>
-    <p>update challenge description with more guidance on expectations, possibly add more notes in the code as well</p>
-    <p> Use weaver to get results for other editions: https://weaver-api.buzzfeed.com/v1/feeds/trending?client_type=desktop&lang=en&country=us&page=2&z=2406u206</p>
-    <p>clean up json files</p>
-    <p>add favicon</p>
-    <p>how should personalization work?  let them be creative?  recommend that they use session storage?</p>
-    <p>update article.html</p>
-    <p>add see more button</p>
+    <p>possibly add more notes in the code or give direction about which files will likely need to be edited?</p>
     
     <h1>Challenge Description</h1>
     <p>
-    In this exercise, we ask that you implement a full stack web application that ingests multiple APIs to build a unique feed of content for each user.
+    In this exercise, we ask that you generate a feed of recommended posts for a user based on their browsing patterns. The tech stack includes Python, Flask, Jinja, HTML, CSS, and Javascript.
     </p>
     <p>
-      The tech stack includes Python, Flask, Jinja, HTML, CSS, and Javascript.
+      The feed page in its current state is available <a href="https://bf-full-stack-challenge.curseagain.repl.co/feed">here</a>, or can also be accessed by clicking "feed" in the header menu above.
     </p>
+    <ul>
+      <li>The "Latest Posts" feed contains the most recently published posts.</li>
+      <li>The "Trending Posts" feed contains the articles that are currently trending.</li>
+      <li>The "Recommended Posts" feed is empty for now, but will be completed by you during the course of this challenge.</li>
+    </ul>
+    <p>Please do not spend more than x-TODO hours on this task.</p>
     <h1>Product Requirements</h1>
     <ul>
-      <li>A single page with multiple feeds of content, like the BuzzFeed homepage</li>
-      <li>The main feed should be the latest content published</li>
-      <li>There should be at least two modules with personalized content for that user</li>
-      <li>There should be one module with the most trending articles for that user’s area</li>
-      <li>The site must be fast and performant, especially on mobile</li>
+      <li>Using the article information available to you via the APIs (e.g. <a href="https://bf-full-stack-challenge.curseagain.repl.co/api/latest">https://bf-full-stack-challenge.curseagain.repl.co/api/latest</a>), determine the criteria by which you can generate a "Recommended Posts" feed.  For example, you may want to show more "Celebrity" posts if a user tends to click on articles in the "Celebrity" category. 
+ Or you may want to give preference to more recently published articles if a user clicks on articles mostly in the "Latest Posts" feed.</li>
+      <li>Create an API that will return 3 results to populate the "Recommended Posts" feed using your preferred criteria.</li>
+      <li>Use session, local storage, or cookies to store information about the user as they click on articles and navigate the site, which you can then pass along with your API request.</li>
+      <li>Each time the feed page renders, the "Recommended Posts" feed should contain improved recommendations for that user based on their browsing patterns.</li>
     </ul>
+    <h1>Reflections</h1>
+    <p>If given more time, what improvements would you make to the feed page or your recommendations?  (e.g. deduplication, SEO, etc)</p>
+    <h1>How to Get Started</h1>
+    <p>To begin your challenge, create a fork of this Repl <a href="https://replit.com/@curseagain/BF-Full-Stack-Challenge">here!<a></p>
   </div>
 </body>
 

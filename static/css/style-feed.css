@@ -41,6 +41,7 @@ button {
   flex-direction: row;
   font-family: Proxima Nova, Helvetica, Arial, sans-serif;
   font-size: 1.125rem;
+  margin: auto;
   margin-bottom: 20px;
   outline: 0;
   padding: 0.5rem 1rem;
@@ -69,7 +70,7 @@ button {
 
 .wireframe {
   background-color: #eee;
-  height: 100px;
+  height: 300px;
 }
 
 .hidden {
@@ -95,6 +96,10 @@ button {
 
   .main, .sidebar {
     flex: 0 0 50%;
+  }
+
+  .wireframe {
+    height: 100px;
   }
 
   .feed-item {

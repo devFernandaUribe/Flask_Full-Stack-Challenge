@@ -10,7 +10,7 @@ def index():
   header = render_template('header.html')
   return render_template('index.html', header=header)
 
-# Feed page, where the bulk of your work will be done
+# Feed page
 @app.route("/feed", defaults={'edition': 'us'}, strict_slashes=False)
 @app.route('/<edition>/feed', strict_slashes=False)
 def feed(edition):
@@ -37,7 +37,7 @@ def api(label):
     mimetype='application/json'
   )
 
-# Article page - you should not have to modify this
+# Article page
 @app.route("/article/<path:path>", strict_slashes=False)
 def article(path):
   header = render_template('header.html')
@@ -46,7 +46,7 @@ def article(path):
     header=header,
   )
 
-# Unknown routes
+# Catchall 404 for unknown routes
 @app.route('/', defaults={'path': ''})
 @app.route('/<path:path>')
 def catch_all(path):

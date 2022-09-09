@@ -4,69 +4,6 @@
             "avatars": [{
                 "sizes": [{
                     "size": "small",
-                    "url": "https://img.buzzfeed.com/buzzfeed-static/static/2019-04/10/20/user_images/buzzfeed-prod-web-01/crystalro-v2-27596-1554940887-0_large.jpg"
-                }]
-            }],
-            "id": "2499076",
-            "name": "Crystal Ro",
-            "page": "/crystalro",
-            "username": "crystalro"
-        }],
-        "canonical_path": "/crystalro/period-jokes-2022",
-        "category": "Culture",
-        "classification": {
-            "edition": "US",
-            "section": "Internet Finds"
-        },
-        "created_at": "2022-08-14T13:16:02Z",
-        "data_source": "recsys_api",
-        "description": "\"Saying \u2018I\u2019m bleeding from my vagina\u2019 instead of \u2018I\u2019m on my period\u2019 so men will get uncomfortable and leave me TF alone.\"",
-        "description_markdown": "\"Saying \u2018I\u2019m bleeding from my vagina\u2019 instead of \u2018I\u2019m on my period\u2019 so men will get uncomfortable and leave me TF alone.\"",
-        "flags": ["comments_enabled", "raw", "reactions_enabled"],
-        "id": "6286959",
-        "language": "en",
-        "name": "People Are Making Funny Jokes About Periods Because, Guess What, They're A Never-Ending Nightmare",
-        "source_uri": "/crystalro/period-jokes-2022",
-        "stats": {
-            "impressions": 0
-        },
-        "tags": ["--primarykeyword-bestofinternet-twitter", "bestofinternet-twitter", "health and wellness", "womens content"],
-        "thumbnails": [{
-            "sizes": [{
-                "alt_text": "Illustration of person bleeding through underwear on period",
-                "size": "big",
-                "url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-08/11/21/tmp/a6073a4ad145/tmp-name-2-4212-1660254141-0_big.jpg"
-            }, {
-                "alt_text": "Illustration of person bleeding through underwear on period",
-                "size": "dblbig",
-                "url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-08/11/21/tmp/a6073a4ad145/tmp-name-2-4212-1660254141-0_dblbig.jpg"
-            }, {
-                "alt_text": "Illustration of person bleeding through underwear on period",
-                "size": "dblwide",
-                "url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-08/11/21/tmp/a6073a4ad145/tmp-name-2-4212-1660254141-0_dblwide.jpg"
-            }, {
-                "alt_text": "Illustration of person bleeding through underwear on period",
-                "size": "small",
-                "url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-08/11/21/tmp/a6073a4ad145/tmp-name-2-4212-1660254141-0_small.jpg"
-            }, {
-                "alt_text": "Illustration of person bleeding through underwear on period",
-                "size": "standard",
-                "url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-08/11/21/tmp/a6073a4ad145/tmp-name-2-4212-1660254141-0.jpg"
-            }, {
-                "alt_text": "Illustration of person bleeding through underwear on period",
-                "size": "wide",
-                "url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-08/11/21/tmp/a6073a4ad145/tmp-name-2-4212-1660254141-0_wide.jpg"
-            }]
-        }],
-        "translator_id": "6286959",
-        "treatments": [],
-        "type": "post",
-        "updated_at": "2022-08-14T23:25:08Z"
-    }, {
-        "authors": [{
-            "avatars": [{
-                "sizes": [{
-                    "size": "small",
                     "url": "https://img.buzzfeed.com/buzzfeed-static/static/user_images/_UpbzlJKs_large.jpg?output-format=jpg&crop=400%3A400%3B0%2C0"
                 }]
             }],
@@ -82,7 +19,6 @@
             "section": "Celebrity"
         },
         "created_at": "2022-08-14T20:21:45Z",
-        "data_source": "recsys_api",
         "description": "\"I don't think I'm better than everyone else.\"",
         "description_markdown": "\"I don't think I'm better than everyone else.\"",
         "flags": ["brand_safe", "comments_enabled", "raw", "reactions_enabled"],
@@ -139,7 +75,6 @@
             "section": "Style"
         },
         "created_at": "2022-08-14T11:16:04Z",
-        "data_source": "recsys_api",
         "description": "\"I hope it's making you wonder how a $25 dress from Shein could possibly be ethically made.\"",
         "description_markdown": "\"I hope it's making you wonder how a $25 dress from Shein could possibly be ethically made.\"",
         "flags": ["brand_safe", "comments_enabled", "raw", "reactions_enabled"],
@@ -196,7 +131,6 @@
             "section": "Shopping"
         },
         "created_at": "2022-08-15T18:01:02Z",
-        "data_source": "recsys_api",
         "description": "I'm going to be honest with you, my life was changed for the better when I learned a microwave s'mores maker existed.",
         "description_markdown": "I'm going to be honest with you, my life was changed for the better when I learned a microwave s'mores maker existed.",
         "flags": ["brand_safe", "comments_enabled", "raw", "reactions_enabled"],
@@ -260,7 +194,6 @@
             "section": "Celebrity"
         },
         "created_at": "2022-08-11T13:27:15Z",
-        "data_source": "recsys_api",
         "description": "Last year, Hunter claimed that he\u2019d \u201cgroomed\u201d then-16-year-old Millie when he was 20, before making a series of crude remarks about their alleged relationship during an Instagram Live.",
         "description_markdown": "Last year, Hunter claimed that he\u2019d \u201cgroomed\u201d then-16-year-old Millie when he was 20, before making a series of crude remarks about their alleged relationship during an Instagram Live.",
         "flags": ["brand_safe", "comments_enabled", "raw"],
@@ -318,7 +251,6 @@
             "section": "Health"
         },
         "created_at": "2022-08-15T16:32:06Z",
-        "data_source": "recsys_api",
         "description": "Scarring from acne; infections, like monkeypox; or other skin problems is sometimes unavoidable, but there are things you can do to help minimize and treat skin discoloration or scars.",
         "description_markdown": "Scarring from acne; infections, like monkeypox; or other skin problems is sometimes unavoidable, but there are things you can do to help minimize and treat skin discoloration or scars.",
         "flags": ["brand_safe", "comments_enabled", "raw"],
@@ -382,7 +314,6 @@
             "section": "TVAndMovies"
         },
         "created_at": "2022-08-15T18:16:02Z",
-        "data_source": "recsys_api",
         "description": "Squiggly Stick Figure, I choose you!",
         "description_markdown": "Squiggly Stick Figure, I choose you!",
         "flags": ["brand_safe", "comments_enabled", "raw", "reactions_enabled"],
@@ -445,7 +376,6 @@
             "section": "Internet Finds"
         },
         "created_at": "2022-08-15T01:16:03Z",
-        "data_source": "recsys_api",
         "description": "It may be summer, but these stories will make you feel like it's Spooky Season.",
         "description_markdown": "It may be summer, but these stories will make you feel like it's Spooky Season.",
         "flags": ["brand_safe", "comments_enabled", "raw", "reactions_enabled"],
@@ -503,7 +433,6 @@
             "section": "Celebrity"
         },
         "created_at": "2022-08-12T19:16:02Z",
-        "data_source": "recsys_api",
         "description": "Robin Williams was truly one of the most down-to-earth people in Hollywood. \u2764\ufe0f",
         "description_markdown": "Robin Williams was truly one of the most down-to-earth people in Hollywood. \u2764\ufe0f",
         "flags": ["brand_safe", "comments_enabled", "raw", "reactions_enabled"],
@@ -566,7 +495,6 @@
             "section": "Shopping"
         },
         "created_at": "2022-08-15T14:01:03Z",
-        "data_source": "recsys_api",
         "description": "Things that'll help you feel like a genius problem solver when dealing with stuff like too-short doors, seriously lacking storage, faded wordwork, and so many other issues.",
         "description_markdown": "Things that'll help you feel like a genius problem solver when dealing with stuff like too-short doors, seriously lacking storage, faded wordwork, and so many other issues.",
         "flags": ["brand_safe", "comments_enabled", "raw", "reactions_enabled"],
@@ -630,7 +558,6 @@
             "section": "Animals"
         },
         "created_at": "2022-08-15T01:46:03Z",
-        "data_source": "recsys_api",
         "description": "He's a very cute kitty, so the stakes are high.",
         "description_markdown": "He's a very cute kitty, so the stakes are high.",
         "flags": ["brand_safe", "comments_enabled", "raw", "reactions_enabled"],
@@ -694,7 +621,6 @@
             "section": "TVAndMovies"
         },
         "created_at": "2022-08-15T15:46:02Z",
-        "data_source": "recsys_api",
         "description": "\"She made me feel normal.\"",
         "description_markdown": "\"She made me feel normal.\"",
         "flags": ["brand_safe", "comments_enabled", "raw", "reactions_enabled"],
@@ -752,7 +678,6 @@
             "section": "Community"
         },
         "created_at": "2022-08-10T15:38:34Z",
-        "data_source": "recsys_api",
         "description": "If you think you're an old soul, let's put that to the test.",
         "description_markdown": "If you think you're an old soul, let's put that to the test.",
         "flags": ["brand_safe", "comments_enabled", "raw", "reactions_enabled"],
@@ -816,7 +741,6 @@
             "section": "Community"
         },
         "created_at": "2022-08-15T18:16:02Z",
-        "data_source": "recsys_api",
         "description": "From petty pet peeves to safety-conscious red flags, we want to know what you look out for.",
         "description_markdown": "From petty pet peeves to safety-conscious red flags, we want to know what you look out for.",
         "flags": ["brand_safe", "comments_enabled", "raw", "reactions_enabled"],
@@ -873,7 +797,6 @@
             "section": "Celebrity"
         },
         "created_at": "2022-08-15T20:12:07Z",
-        "data_source": "recsys_api",
         "description": "On Nipsey Hussle Day in the city of Los Angeles.",
         "description_markdown": "On Nipsey Hussle Day in the city of Los Angeles.",
         "flags": ["brand_safe", "comments_enabled", "raw", "reactions_enabled"],
@@ -936,7 +859,6 @@
             "section": "Community"
         },
         "created_at": "2022-08-11T06:27:23Z",
-        "data_source": "recsys_api",
         "description": "Because parenthood doesn't fit or follow any timeline.",
         "description_markdown": "Because parenthood doesn't fit or follow any timeline.",
         "flags": ["brand_safe", "comments_enabled", "raw", "reactions_enabled"],
@@ -993,7 +915,6 @@
             "section": "Shopping"
         },
         "created_at": "2022-08-15T19:32:00Z",
-        "data_source": "recsys_api",
         "description": "Including AirPods dupes, an indoor security camera, a gel memory foam mattress, and more.",
         "description_markdown": "Including AirPods dupes, an indoor security camera, a gel memory foam mattress, and more.",
         "flags": ["brand_safe", "comments_enabled", "raw", "reactions_enabled"],
@@ -1050,7 +971,6 @@
             "section": "Celebrity"
         },
         "created_at": "2022-08-15T00:46:02Z",
-        "data_source": "recsys_api",
         "description": "Elizabeth Banks met her husband on their first day at UPenn!",
         "description_markdown": "Elizabeth Banks met her husband on their first day at UPenn!",
         "flags": ["brand_safe", "comments_enabled", "raw", "reactions_enabled"],
@@ -1114,7 +1034,6 @@
             "section": "Celebrity"
         },
         "created_at": "2022-08-15T02:46:02Z",
-        "data_source": "recsys_api",
         "description": "Will Hollywood ever learn what teenagers actually look like?",
         "description_markdown": "Will Hollywood ever learn what teenagers actually look like?",
         "flags": ["brand_safe", "comments_enabled", "raw", "reactions_enabled"],
@@ -1171,7 +1090,6 @@
             "section": "Shopping"
         },
         "created_at": "2022-08-15T11:00:04Z",
-        "data_source": "recsys_api",
         "description": "You might as well start freeing up some shelf space for these superstars.",
         "description_markdown": "You might as well start freeing up some shelf space for these superstars.",
         "flags": ["brand_safe", "comments_enabled", "raw", "reactions_enabled"],
@@ -1234,7 +1152,6 @@
             "section": "Shopping"
         },
         "created_at": "2022-08-12T10:00:03Z",
-        "data_source": "recsys_api",
         "description": "You are going to sleep so restfully with these comfy $20 sleep headphones you might become too powerful for your own life.",
         "description_markdown": "You are going to sleep so restfully with these comfy $20 sleep headphones you might become too powerful for your own life.",
         "flags": ["brand_safe", "comments_enabled", "raw", "reactions_enabled"],
@@ -1297,7 +1214,6 @@
             "section": "Celebrity"
         },
         "created_at": "2022-08-14T18:46:02Z",
-        "data_source": "recsys_api",
         "description": "\"Hollywood didn't really want me at that point, and I was kind of over it too. So, after a while, it feels like a mutual breakup.\"",
         "description_markdown": "\"Hollywood didn't really want me at that point, and I was kind of over it too. So, after a while, it feels like a mutual breakup.\"",
         "flags": ["brand_safe", "comments_enabled", "raw", "reactions_enabled"],
@@ -1360,7 +1276,6 @@
             "section": "TVAndMovies"
         },
         "created_at": "2022-08-15T19:19:16Z",
-        "data_source": "recsys_api",
         "description": "Fresh off a successful first season of <i>Loot</i>, here's a ranking of Maya Rudolph's very best roles.",
         "description_markdown": "Fresh off a successful first season of Loot, here's a ranking of Maya Rudolph's very best roles.",
         "flags": ["brand_safe", "comments_enabled", "raw", "reactions_enabled"],
@@ -1417,7 +1332,6 @@
             "section": "Internet Finds"
         },
         "created_at": "2022-08-11T18:35:41Z",
-        "data_source": "recsys_api",
         "description": "Truly wild when you think about it.",
         "description_markdown": "Truly wild when you think about it.",
         "flags": ["brand_safe", "comments_enabled", "raw", "reactions_enabled"],
@@ -1479,7 +1393,6 @@
             "section": "Celebrity"
         },
         "created_at": "2022-08-14T14:46:03Z",
-        "data_source": "recsys_api",
         "description": "Lil Nas X taking his whole family bowling is so wholesome.",
         "description_markdown": "Lil Nas X taking his whole family bowling is so wholesome.",
         "flags": ["brand_safe", "comments_enabled", "raw", "reactions_enabled"],
@@ -1537,7 +1450,6 @@
             "section": "Celebrity"
         },
         "created_at": "2022-08-14T20:46:03Z",
-        "data_source": "recsys_api",
         "description": "Because everyone's opinion is always changing.",
         "description_markdown": "Because everyone's opinion is always changing.",
         "flags": ["brand_safe", "comments_enabled", "raw", "reactions_enabled"],
@@ -1599,7 +1511,6 @@
             "section": "Internet Finds"
         },
         "created_at": "2022-08-14T18:16:03Z",
-        "data_source": "recsys_api",
         "description": "Listen...technology isn't for everyone.",
         "description_markdown": "Listen...technology isn't for everyone.",
         "flags": ["brand_safe", "comments_enabled", "raw", "reactions_enabled"],
@@ -1656,7 +1567,6 @@
             "section": "Work & Money"
         },
         "created_at": "2022-08-14T21:46:02Z",
-        "data_source": "recsys_api",
         "description": "\"I then realized that I had no idea what the job I'd taken actually was...\"",
         "description_markdown": "\"I then realized that I had no idea what the job I'd taken actually was...\"",
         "flags": ["brand_safe", "comments_enabled", "raw", "reactions_enabled"],
@@ -1714,7 +1624,6 @@
             "section": "Work & Money"
         },
         "created_at": "2022-08-13T19:46:03Z",
-        "data_source": "recsys_api",
         "description": "\"Rich people think working hard is riding a private jet while emailing someone.\"",
         "description_markdown": "\"Rich people think working hard is riding a private jet while emailing someone.\"",
         "flags": ["brand_safe", "comments_enabled", "raw", "reactions_enabled"],
@@ -1771,7 +1680,6 @@
             "section": "News"
         },
         "created_at": "2022-08-12T21:29:48Z",
-        "data_source": "recsys_api",
         "description": "\"The internet\u2019s hottest trend is texting your mom if you got the polio vaccine.\"",
         "description_markdown": "\"The internet\u2019s hottest trend is texting your mom if you got the polio vaccine.\"",
         "flags": ["brand_safe", "comments_enabled", "raw"],
@@ -1829,7 +1737,6 @@
             "section": "Celebrity"
         },
         "created_at": "2022-08-14T17:51:05Z",
-        "data_source": "recsys_api",
         "description": "Tea-rrific week.",
         "description_markdown": "Tea-rrific week.",
         "flags": ["brand_safe", "comments_enabled", "raw", "reactions_enabled"],
@@ -1887,7 +1794,6 @@
             "section": "News"
         },
         "created_at": "2022-08-15T12:42:46Z",
-        "data_source": "recsys_api",
         "description": "The Espionage Act investigation into Trump, the Crimea blast without a confirmed cause, and the return of polio in the US.",
         "description_markdown": "The Espionage Act investigation into Trump, the Crimea blast without a confirmed cause, and the return of polio in the US.",
         "flags": ["brand_safe", "comments_enabled", "raw"],
@@ -1944,7 +1850,6 @@
             "section": "Food"
         },
         "created_at": "2022-08-11T21:16:02Z",
-        "data_source": "recsys_api",
         "description": "Here's what to stock up on.",
         "description_markdown": "Here's what to stock up on.",
         "flags": ["brand_safe", "comments_enabled", "raw", "reactions_enabled"],
@@ -2002,7 +1907,6 @@
             "section": "Community"
         },
         "created_at": "2022-08-13T16:16:03Z",
-        "data_source": "recsys_api",
         "description": "Times are tough.",
         "description_markdown": "Times are tough.",
         "flags": ["brand_safe", "comments_enabled", "raw", "reactions_enabled"],
@@ -2060,7 +1964,6 @@
             "section": "Community"
         },
         "created_at": "2022-08-10T16:28:20Z",
-        "data_source": "recsys_api",
         "description": "I know you want Eddie Munson. ;)",
         "description_markdown": "I know you want Eddie Munson. ;)",
         "flags": ["brand_safe", "comments_enabled", "raw", "reactions_enabled"],
@@ -2123,7 +2026,6 @@
             "section": "Shopping"
         },
         "created_at": "2022-08-15T19:01:03Z",
-        "data_source": "recsys_api",
         "description": "Express your unique style without emptying your $ account.",
         "description_markdown": "Express your unique style without emptying your $ account.",
         "flags": ["brand_safe", "comments_enabled", "raw", "reactions_enabled"],
@@ -2180,7 +2082,6 @@
             "section": "Shopping"
         },
         "created_at": "2022-08-15T15:01:03Z",
-        "data_source": "recsys_api",
         "description": "I'm planning a big trip for the fall, and this is basically just my shopping list now.",
         "description_markdown": "I'm planning a big trip for the fall, and this is basically just my shopping list now.",
         "flags": ["brand_safe", "comments_enabled", "raw", "reactions_enabled"],
@@ -2237,7 +2138,6 @@
             "section": "Shopping"
         },
         "created_at": "2022-08-15T20:01:03Z",
-        "data_source": "recsys_api",
         "description": "Whether you're looking for ways to up your cheffing skills or to just bring your culinary space into the 21st century, we got you.",
         "description_markdown": "Whether you're looking for ways to up your cheffing skills or to just bring your culinary space into the 21st century, we got you.",
         "flags": ["brand_safe", "comments_enabled", "raw", "reactions_enabled"],
@@ -2300,7 +2200,6 @@
             "section": "Celebrity"
         },
         "created_at": "2022-08-14T14:49:59Z",
-        "data_source": "recsys_api",
         "description": "\"Jason's actions were clearly intended to threaten me and catch me off guard.\"",
         "description_markdown": "\"Jason's actions were clearly intended to threaten me and catch me off guard.\"",
         "flags": ["brand_safe", "comments_enabled", "raw", "reactions_enabled"],
@@ -2357,7 +2256,6 @@
             "section": "Internet Finds"
         },
         "created_at": "2022-08-12T13:46:02Z",
-        "data_source": "recsys_api",
         "description": "\"I got cancer twice. He didn't bother to call, text, or visit.\"",
         "description_markdown": "\"I got cancer twice. He didn't bother to call, text, or visit.\"",
         "flags": ["brand_safe", "comments_enabled", "raw", "reactions_enabled"],

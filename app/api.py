@@ -17,11 +17,3 @@ def filter_by_page(data = {}, page = 1, num_per_page = 3):
     last = first + num_per_page
     return data['results'][first:last]
   return data
-
-def filter_by_edition(data = {}, edition = None):
-  # TODO
-  return data
-
-def filter_personalized(data = {}, **kwargs):
-  # TODO
-  return data
