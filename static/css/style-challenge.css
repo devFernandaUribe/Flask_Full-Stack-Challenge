@@ -1,7 +1,8 @@
 html, body {
   box-sizing: content-box;
   margin: 0;
-  width: 100%;
+  padding-bottom: 100px;
+  width: MAX(100%, 100vh);
 }
 
 .content {

@@ -9,18 +9,25 @@ class Article {
     return {
       category: category || type,
       href: `/article${canonical_path}`,
-      image: this.getImage(thumbnails),
+      image: {
+        mobile: this.getImage(thumbnails, 'wide'),
+        desktop: this.getImage(thumbnails, 'standard'),
+      },
       name,
       published: new Date(last_updated || created_at).toLocaleDateString('en-us'),
     };
   }
 
-  getImage(thumbnails) {
+  getImage(thumbnails, size) {
+    let imgUrl = '';
     if (thumbnails) {
       thumbnails = thumbnails[0]?.sizes || [];
-      return thumbnails.find(k => k.size === 'standard')?.url;
+      imgUrl = thumbnails.find(k => k.size === size)?.url;
+      if (!imgUrl && size !== 'standard') {
+        imgUrl = thumbnails.find(k => k.size === 'standard')?.url;
+      }
     }
-    return '';
+    return imgUrl || '';
   }
 
   toHTML() {
@@ -28,7 +35,8 @@ class Article {
     return `
       <div class="thumbnail-wrapper">
         <a href="${href}">
-          <img alt="" src="${image}" />
+          <img alt="" class="image-desktop" src="${image.desktop}" />
+          <img alt="" class="image-mobile" src="${image.mobile}" />
         </a>
       </div>
       <div class="text-wrapper">
