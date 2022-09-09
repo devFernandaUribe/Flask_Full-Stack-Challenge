@@ -45,7 +45,7 @@ class Article {
           •
           <span class="published">${published}</span>
         </p>
-        <a href="/article${href}">
+        <a href="${href}">
           <h2>${name}</h2>
         </a>
       </div>
