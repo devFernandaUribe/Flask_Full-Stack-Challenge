@@ -13,13 +13,11 @@
   {{ header|safe }}
 
   <div class="content">
-    <h1>TODO for Rebecca:</h1>
-    <p>possibly add more notes in the code or give direction about which files will likely need to be edited?</p>
-    
     <h1>Challenge Description</h1>
     <p>
     In this exercise, we ask that you generate a feed of recommended posts for a user based on their browsing patterns. The tech stack includes Python, Flask, Jinja, HTML, CSS, and Javascript.
     </p>
+    <h2>Background Info</h2>
     <p>
       The feed page in its current state is available <a href="https://bf-full-stack-challenge.curseagain.repl.co/feed">here</a>, or can also be accessed by clicking "feed" in the header menu above.
     </p>
@@ -28,17 +26,38 @@
       <li>The "Trending Posts" feed contains the articles that are currently trending.</li>
       <li>The "Recommended Posts" feed is empty for now, but will be completed by you during the course of this challenge.</li>
     </ul>
-    <p>Please do not spend more than x-TODO hours on this task.</p>
+    <p>
+      Each of the feeds fetches data from an API in <a href="https://replit.com/@curseagain/BF-Full-Stack-Challenge#static/js/script.js" target="_blank">script.js</a>
+    </p>
+    <ul>
+      <li>Latest: <a href="https://7568debc-f5f5-4211-b13a-95126b23b697.id.repl.co/api/latest">/api/latest</a>, <a href="https://replit.com/@curseagain/BF-Full-Stack-Challenge#static/json/latest.json" target="_blank">JSON</a></li>
+      <li>Trending: <a href="https://7568debc-f5f5-4211-b13a-95126b23b697.id.repl.co/api/trending">/api/trending</a>, <a href="https://replit.com/@curseagain/BF-Full-Stack-Challenge#static/json/trending.json" target="_blank">JSON</a></li>
+      <li>Recommended (incomplete): <a href="https://7568debc-f5f5-4211-b13a-95126b23b697.id.repl.co/api/recommended">/api/recommended</a> (Note that this feed, when complete, will include posts from trending/latest feeds, but filtered to contain more personalized results. You will likely be editing <a href="https://replit.com/@curseagain/BF-Full-Stack-Challenge#app/api.py" target="_blank">api.py</a> and <a href="https://replit.com/@curseagain/BF-Full-Stack-Challenge#main.py" target="_blank">main.py</a> files, or adding new files for JSON processing.)</li>
+    </ul>
+    <p>Make note of the data available to you in the existing JSON files.  This data can be used for personalization.</p>
+    <h2>Your Task</h2>
+    <p>
+      Using the article information available to you via the APIs, determine the criteria by which you can generate a "Recommended Posts" feed.
+    </p>
+    <p>
+      For example, you may want to show more "Celebrity" posts if a user tends to click on articles in the "Celebrity" category. Or you may want to give preference to more recently published articles if a user clicks on articles mostly in the "Latest Posts" feed.
+    </p>
+    <h2>Time Constraints</h2>
+    <p>Please do not spend more than 2 hours on this task. At the end you can discuss problems you had with the task, or optimizations you would make if given more time.</p>
     <h1>Product Requirements</h1>
     <ul>
-      <li>Using the article information available to you via the APIs (e.g. <a href="https://bf-full-stack-challenge.curseagain.repl.co/api/latest">https://bf-full-stack-challenge.curseagain.repl.co/api/latest</a>), determine the criteria by which you can generate a "Recommended Posts" feed.  For example, you may want to show more "Celebrity" posts if a user tends to click on articles in the "Celebrity" category. 
- Or you may want to give preference to more recently published articles if a user clicks on articles mostly in the "Latest Posts" feed.</li>
       <li>Create an API that will return 3 results to populate the "Recommended Posts" feed using your preferred criteria.</li>
       <li>Use session, local storage, or cookies to store information about the user as they click on articles and navigate the site, which you can then pass along with your API request.</li>
       <li>Each time the feed page renders, the "Recommended Posts" feed should contain improved recommendations for that user based on their browsing patterns.</li>
-    </ul>
-    <h1>Reflections</h1>
-    <p>If given more time, what improvements would you make to the feed page or your recommendations?  (e.g. deduplication, SEO, etc)</p>
+      <li>
+        When you've completed the task, please add some comments to explain:
+        <ul>
+          <li>What was your thought process for selecting criteria for personalized recommendations?</li>
+          <li>If given more time, what improvements would you make to the feed page or your recommendations?  (e.g. deduplication, SEO, etc)</li>
+          <li>Were any parts of the task particularly challenging or did you require further clarification? We want to improve this task and would love to have your feedback!</li>
+        </ul>
+      </li>
+    </ul>    
     <h1>How to Get Started</h1>
     <p>To begin your challenge, create a fork of this Repl <a href="https://replit.com/@curseagain/BF-Full-Stack-Challenge">here!</a></p>
   </div>

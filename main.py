@@ -11,11 +11,8 @@ def index():
   return render_template('index.html', header=header)
 
 # Feed page
-@app.route("/feed", defaults={'edition': 'us'}, strict_slashes=False)
-@app.route('/<edition>/feed', strict_slashes=False)
-def feed(edition):
-  if edition not in ['us', 'uk', 'mx']:
-    return '404'
+@app.route("/feed", strict_slashes=False)
+def feed():
   header = render_template('header.html')
   return render_template(
     'feed.html',
