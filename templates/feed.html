@@ -17,6 +17,7 @@
     <div class="main">
       <div id="feed-latest" class="feed-latest">
         <h1>Latest Posts</h1>
+        <h1>{{user_type_preferences}}</h1>
         {% with n=wireframes.latest %}
           {% include "wireframes.html" %}
         {% endwith %}
@@ -30,6 +31,7 @@
         {% with n=wireframes.recommended %}
           {% include "wireframes.html" %}
         {% endwith %}
+        <button class="button-more">Load More</button>
       </div>
       <div id="feed-trending" class="feed-trending">
         <h1>Trending Posts</h1>

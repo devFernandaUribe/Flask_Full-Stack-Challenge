@@ -106,7 +106,7 @@ class Feed {
 }
 
 // Load all feeds
-for (let feedName of ['latest', 'trending']) {
+for (let feedName of ['latest', 'trending','recommended']) {
   const feed = new Feed(feedName);
   feed.load();
 }
